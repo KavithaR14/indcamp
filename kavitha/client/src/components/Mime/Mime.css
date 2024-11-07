@@ -1,0 +1,25 @@
+.mime-container {
+    width: 653px;
+    max-width: 652px;
+    height: 767px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; /* Aligns container to the left */
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 0px;
+    margin-top:34px ;
+  }
+  
+  .image-section {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px; /* No rounded corners */
+  }
+  

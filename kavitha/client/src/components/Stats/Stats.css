@@ -1,0 +1,36 @@
+.stats-item {
+    text-align: center;
+    display: inline-block;
+    margin: 50px 30px; /* Adjusted space between each stat */
+    font-weight: bold;
+    vertical-align: top; /* Ensures that all items align properly at the top */
+}
+
+.stats-item h1 {
+    font-size: 8rem; /* Adjusted size */
+    color: #035772; /* Dark blue color for numbers */
+    margin-top: 0; /* Aligns the numbers evenly */
+    margin-bottom:0.5px; /* Adjust spacing between the number and the text */
+}
+
+.stats-item p {
+    font-size: 1.2rem; /* Adjust size as needed */
+    color: #000000; /* Black for the description */
+    margin: 0; /* Align text closely with the numbers */
+    line-height: 1.2; /* Reduce line-height to make the text more compact */
+}
+
+/* Adjust specifically the second item (800) to align properly */
+.stats-item:nth-child(2) h1 {
+    margin-top: 5px; /* Adjust this value to align the 800 with others */
+}
+
+/* Ensure the stats are centered as a group */
+.stats-container {
+    display: flex;
+    justify-content: center; /* Center all stats horizontally */
+    align-items: flex-start; /* Align items to the top */
+    padding: 40px 0; /* Padding around the stats section */
+    gap: 80px; /* Space between each stat item */
+    flex-wrap: wrap; /* Allows stats to wrap on smaller screens */
+}

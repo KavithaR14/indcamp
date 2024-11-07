@@ -1,0 +1,97 @@
+/* Container for both sections */
+.help-know-container {
+    display: flex;
+    width: 50%;
+    gap: 0px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 545px;
+    margin-left: 235px;
+    margin-top: -50px ;
+  }
+  
+  /* How You Can Help Section */
+  .help-section {
+    flex: 1;
+    background-color: #E8CF1A; /* Yellow */
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+  
+  }
+  .help-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left:40px ;
+    margin-top:-40px ;
+}
+
+/* Paragraph styles */
+.help-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    margin-left:35px ;
+}
+  
+  .know-us-section {
+    flex: 1;
+    background-color: #091405; /* Dark Green */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  /* Shared styles for headings */
+  .know-us-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left:40px ;
+    margin-top:-40px ;
+}
+
+/* Paragraph styles */
+.know-us-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    margin-left:35px ;
+}
+  
+  /* Button styling */
+  .action-btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid currentColor;
+    color: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  
+  .action-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .help-know-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

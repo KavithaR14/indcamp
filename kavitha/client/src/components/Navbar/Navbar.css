@@ -1,0 +1,60 @@
+.new-navbar {
+    background-color: #F6F9F5; /* Navbar background color */
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    padding-top: 50px;
+    padding: 0rem; /* Adjusted padding for spacing */
+    
+}
+
+.new-navbar-brand {
+    color: #080808; /* Brand text color */
+    font-size: 2rem; /* Font size of brand */
+    margin-right: auto; /* Pushes the brand to the left */
+}
+
+.new-navbar-links {
+    display: flex;
+    gap: 0rem; /* Space between buttons */
+    flex-grow: 1; /* Allow the container to grow */
+    justify-content: flex-end; /* Align buttons to the right */
+}
+
+.new-btn, .takeaction, .menu {
+    background-color: #035772; /* Default button background color */
+    color: white; /* Text color */
+    border: none;
+    height: 80px; /* Height of the buttons */
+    padding: 0.75rem 1.5rem; /* Padding for button size */
+    border-radius: 0px; /* Square corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem; /* Text size */
+    flex: 1; /* Make buttons grow evenly and fill available space */
+    max-width: 150px; /* Maximum width to control the button size */
+    text-align: center; /* Center text */
+}
+
+.takeaction {
+    background-color: #E8CF1A; /* Specific color for the Take Action button */
+}
+
+.menu {
+    background-color: #0A4931;
+    color: white /* Specific color for the Menu button */
+}
+
+.new-btn:hover, .takeaction:hover {
+    background-color: #011014; /* Change hover color for all buttons */
+    color: #e1eaec; /* Change hover text color */
+}
+.menu:hover {
+    background-color: #e1eaec;
+    color:#0A4931
+}
+.navbar-logo {
+    width:200px; /* Adjust size as needed */
+    height: 200;
+    margin-right: 10px; /* Space between logo and brand name */
+}

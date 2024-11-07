@@ -1,0 +1,55 @@
+.subscribe-section {
+  background-color: #0e5b6f; /* Background color */
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  margin-top: -50px;
+}
+
+.subscribe-section h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.subscribe-section p {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  width: 500px;
+  height: 50px;
+  background-color: #091405; /* Dark background for input */
+  color: white; /* White text inside input */
+  margin-bottom: -100px;
+  height:30px;
+  width:500px;
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #091405;
+  background-color: rgb(252, 246, 246);
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  margin-bottom: -100px;
+  
+}
+
+.subscribe-form button:hover {
+  background-color: #E8CF1A;
+}
