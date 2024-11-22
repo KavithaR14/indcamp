@@ -1,0 +1,52 @@
+.mime-container {
+  width: 653px;
+  max-width: 646px;
+  height: 767px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start; /* Aligns container to the left */
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 0px;
+  margin-top: 34px;
+}
+
+.image-section {
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px; /* No rounded corners */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .mime-container {
+    width: 100%; /* Full width on smaller screens */
+    height: auto; /* Allow height to adjust dynamically */
+    justify-content: center; /* Center align for better appearance */
+    margin-top: 20px; /* Adjust top margin for spacing */
+  }
+
+  .image-section {
+    height: auto; /* Maintain aspect ratio of images */
+  }
+
+  .image {
+    object-fit: contain; /* Ensure image fits within container while preserving aspect ratio */
+  }
+}
+
+@media (max-width: 480px) {
+  .mime-container {
+    margin-top: 10px; /* Reduce margin on very small screens */
+  }
+
+  .image {
+    object-fit: cover; /* Use cover for smaller images to fill the space */
+  }
+}
