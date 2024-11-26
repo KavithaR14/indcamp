@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: Arial, sans-serif;
   margin: 70px;
   padding: 0px;
@@ -7,21 +7,20 @@ body {
   align-items: center;
   min-height: 200vh;
   background-color: #f9f9f9;
-}
+} */
 
 .form-container {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
-  max-width: 800px;
-  max-height: 1300px;
-  width: 900px;
+  padding: 30px;
+  height: 650px;
+  width: 1200px;
   background-color: #f5f9f7;
   border: 1px solid #020202;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 200px; /* Optional to add some spacing around the container */
-  margin-top: 170px;
-  margin-left:500px ;
+  margin-top: -50px;
+  margin-left:200px ;
 }
 
 .form-left {

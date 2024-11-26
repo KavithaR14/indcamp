@@ -25,14 +25,14 @@
     background-color: #035772; /* Default button background color */
     color: white; /* Text color */
     border: none;
-    height: 80px; /* Height of the buttons */
+    height: 100px; /* Height of the buttons */
     padding: 0.75rem 1.5rem; /* Padding for button size */
     border-radius: 0px; /* Square corners */
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 1rem; /* Text size */
     flex: 1; /* Make buttons grow evenly and fill available space */
-    max-width: 150px; /* Maximum width to control the button size */
+    width: 190px; /* Maximum width to control the button size */
     text-align: center; /* Center text */
 }
 

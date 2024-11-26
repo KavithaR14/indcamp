@@ -1,25 +1,31 @@
 import React from 'react';
-// import Whatwedo from '../Whatwedo/Whatwedo';
+import Whatwedo from '../Whatwedo/Whatwedo';
 import Program from '../Program/Program';
-import WhereWeWork from '../Wherewework/Wherewework';
-// import LandingPage from '../LandingPage/LandingPage';
+import Wherewework from '../Wherewework/Wherewework';
+import LandingPage from '../LandingPage/LandingPage';
 import SubscribeSection from '../JoinMovement/SubscribeSection';
 import Contact from '../Contact/Contact';
-import LandingPage from '../components/LandingPage/LandingPage';
-import Whatwedo from '../components/Whatwedo/Whatwedo';
+import Navbar from '../Navbar/Navbar';
 
+const Whatwe = () => {
+  return (
+    <div>
+      {/* Header Section */}
+      
 
-function Whatwe() {
-    return (
-      <>
-        <Whatwedo/>
-        <Program/>
-        <WhereWeWork/>
-        <LandingPage/>
-        <SubscribeSection/>
-        <Contact/>
-    </>
-    )
-}
+      {/* Core Sections */}
+      <Navbar />
+      <Whatwedo />
+      <Program />
+      <Wherewework />
+      <LandingPage />
+      //in use
+
+      {/* Footer Section */}
+      <SubscribeSection />
+      <Contact />
+    </div>
+  );
+};
 
 export default Whatwe;

@@ -1,0 +1,198 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-section {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqxoFmhuZTNp4vOmrnk8DC9s_PoiK5cDIe6mKVtGloh-FJmRMidxE1EHr2B2ZTathlEWc&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    color: #201e1e;
+    padding: 100px 50px 50px;
+    height: 40vh;
+    width: 92vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.rectangle-box {
+    width: 170px;
+    height: 30px;
+    background-color: rgb(83, 122, 145);
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    border-radius: 5px;
+}
+
+.hero-section h1 {
+    margin: 0;
+    font-size: 5em;
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+}
+
+.AGAI {
+    color: white;
+    margin-bottom: -10px;
+}
+
+/* Styling for below-image paragraphs */
+.below-image-paragraphs {
+    margin-top: 20px;
+    margin-right: -30vw;
+    text-align: justify;
+    max-width: 40vw;
+    color: #201e1e;
+    padding: 10px;
+}
+
+.hero-paragraph-1,
+.hero-paragraph-2 {
+    font-size: 0.7em;
+    margin: 10px 0;
+}
+
+/* About section styling */
+/* About section styling */
+/* About section styling */
+/* About section styling */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-top: 30px;
+}
+
+/* Center the "About" heading */
+/* Center and align the "About" section heading */
+/* Align the "About" section heading to the left */
+.about-heading {
+    font-size: 2em;
+    color: #434d79;
+    margin-bottom: 20px;
+    text-align: left; /* Aligns heading to the left */
+    width: 100%;
+    font-weight: bold; /* Matches boldness in the image */
+    margin-left: 5%; /* Adds some padding from the left */
+}
+
+/* Adjust alignment and layout of the "About" section */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/* Adjust paragraph width and alignment */
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 95%; /* Increased content width */
+    max-width: 1300px; /* Set max width for large screens */
+}
+
+/* Increase width of the paragraph */
+.about-paragraph {
+    width: 75%; /* Adjusted width to give more space for text */
+    font-size: 0.8em;
+    color: #333;
+    line-height: 1.8; /* Increased line-height for readability */
+    text-align: justify; /* Aligns text evenly on both sides */
+    padding-right: 60px; /* Adjust as needed for spacing from image */
+    margin-bottom: 20px; /* Adds some space below the paragraph */
+}
+
+
+/* Image styling */
+/* Image styling */
+.about-image {
+    width: 50%;
+    margin-left: 20px;
+    align-self: flex-start;
+    position: relative;
+    top: 40px;
+    background-image: url('https://static.wixstatic.com/media/8b445b_a4a53dd251aa4d24aa602279eeab9127~mv2.png/v1/fill/w_467,h_312,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/About.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 0; /* Set to 0 to make it rectangular */
+}
+/* Threaterart.css */
+/* Threaterart.css */
+/* Threaterart.css */
+/* Threaterart.css */
+/* Existing styles... */
+
+/* Services section styling */
+/* Threaterart.css */
+/* Existing styles... */
+
+/* Services section styling */
+/* Threaterart.css */
+/* Existing styles... */
+
+/* Services section styling */
+/* Threaterart.css */
+
+/* Services section styling */
+/* Services section styling */
+.services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 20px;
+}
+
+.services-heading {
+    font-size: 36px;
+    color: #333;
+}
+
+.services-description {
+    font-size: 18px;
+    max-width: 790px;
+    margin: 10px 0 20px 0;
+    color: #555;
+}
+
+/* Updated boxes section styling */
+/* Updated boxes section styling */
+/* Updated boxes section styling */
+/* Updated boxes section styling */
+.boxes-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns in each row */
+    gap: 20px; /* Space between boxes */
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Each box styling */
+.box {
+    padding: 20px;
+    background-color: #284768; /* Blue background color */
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(31, 26, 26, 0.1);
+    font-size: 18px;
+    color: white; /* Set text color to white */
+}
+
+

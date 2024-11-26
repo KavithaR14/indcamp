@@ -22,13 +22,13 @@ function Home() {
             <Hero />
             <Stats />
             <Container /> 
-            {/* <FlagshipProgram/> */}
+           
            
             <Mime />
             <Flagship />
             <HelpAndKnowUs />
             <SubscribeSection />
-           <Contact />
+            <Contact />
     </>
   )
 }

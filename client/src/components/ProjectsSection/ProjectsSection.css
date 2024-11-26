@@ -10,25 +10,39 @@
     display: flex;
     align-items: center;
     gap: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .upcoming {
-    color: #333;
+    color: #1a1919;
+    font-size:70px ;
   }
   
   .projects {
     color: #1a1919;
+    font-size:70px ;
   }
   
   /* Updated Paragraph Container */
-  .paragraph-container {
-    font-size: 0.5em;
+  .title-paragraph1  {
+    font-size: 0.6em;
     line-height: 1.2;
-    color: #777474;
-    max-width: 450px;
-    margin-left: 90px;
+    color: #111010;
+    max-width: 600px;
+    margin-left: 160px;
+    gap: 10px;
+    line-height: 1.5;
+    margin-top: 70px;
+  }
+  .title-paragraph2 {
+    font-size: 0.6em;
+    line-height: 1.2;
+    color: #0a0a0a;
+    width: 600px;
+    margin-left: 160px;
     gap: -10px;
+    line-height: 1.5;
+
   }
   
   /* Projects List */
@@ -51,22 +65,13 @@
   }
   
   .project-title {
+    font-size: 1.9em;
     font-weight: bold;
     line-height: 1.1;
     text-align: left;
     margin-bottom: 10px; /* Add space below title */
-  }/* Region Container Styling for Consistent Spacing */
-  .region-container {
-    background-color: #e0f0f7;
-    padding: 5px 10px;
-    margin: 15px 0; /* Adjusts spacing above and below the region container */
-    border-radius: 4px;
-    display: inline-block;
-    color: #3a3a3a;
-    font-weight: bold;
-    font-size: 0.8em;
-    text-align: left; /* Ensures text alignment */
   }
+
   
   /* Specific Spacing for Project Items to Adjust Consistency */
   .project-item .description-heading {
@@ -79,4 +84,17 @@
   .project-item:nth-child(2) .description-heading {
     margin-top: 30px;
     margin-bottom: 100px;
+  }
+  .project-description {
+    font-size: 0.8em;
+    line-height: 1.2;
+    color: #111010;
+    gap: 10px;
+    line-height: 1.5;
+    margin-top: 70px;
+  }
+  .special-heading {
+    margin-top: -700px;
+    top: 30px;
+    
   }

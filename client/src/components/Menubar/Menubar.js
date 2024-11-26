@@ -8,7 +8,8 @@ import youtube from "../assets/youtube.png";
 
 const Menubar = () => {
   const handleClose = () => {
-    console.log('Close button clicked');
+    console.log("Close button clicked");
+    // You can add more logic here, like hiding the menu
   };
 
   return (
@@ -17,18 +18,16 @@ const Menubar = () => {
       <button className="close-button" onClick={handleClose}>
         &times; {/* HTML entity for multiplication sign (X) */}
       </button>
-      
+
       <div className="app">
         <header className="header">
-          <h1 className="logo">
-            LAST CHANCE
-          </h1>
+          <h1 className="logo">LAST CHANCE</h1>
           <nav className="nav">
-            <Link to="/about">ABOUT</Link> {/* Change to navigate to '/about' */}
-            <Link to="/whatwe">WHAT WE DO</Link> {/* Navigate to '/whatwedo' page */}
-            <Link to="/theaterart">THEATER ART</Link>
-            <Link to="/whoweare">WHO WE ARE</Link>
-            <Link to="/contact">CONTACT</Link>
+            <Link to="/Mainabout">ABOUT</Link>
+            <Link to="/whatwe">WHAT WE DO</Link> {/* Navigate to '/whatwe' page */}
+            <Link to="/Mainthreaterart">THEATER ART</Link>
+            <Link to="/Whoweare">WHO WE ARE</Link>
+            <Link to="/Home">CONTACT</Link>
           </nav>
         </header>
 

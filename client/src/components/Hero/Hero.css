@@ -2,11 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #e5e5e5;
-    padding: 50px 20px;
+    background-image: url('../assets/image02.png');
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 90vh; /* Set to full viewport height to cover the screen when zoomed in or out */
+    width: 98.7%;
+    background-attachment: fixed; /* Fix the background image */
+    padding: 30px 10px;
     text-align: left;
     flex-wrap: wrap;
-    height: 350px; /* Allows content to wrap on smaller screens */
+    /* height: 350px; Allows content to wrap on smaller screens */
 }
 
 .hero-content {

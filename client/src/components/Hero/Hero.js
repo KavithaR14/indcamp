@@ -11,9 +11,9 @@ const Hero = () => {
                 <p>At SRDS, we empower the underprivileged through our education, skilling, and livelihood programs...</p>
                 <button className="btn-primary">Get Involved</button>
             </div>
-            {/* <div className="hero-image">
-                <img src="path-to-your-image.jpg" alt="Smiling child" />
-            </div> */}
+            <div className="hero-image">
+               
+            </div>
         </section>
     );
 };

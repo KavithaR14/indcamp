@@ -1,5 +1,5 @@
 .text-container {
-  width: 56.4%;
+  width: 950px;
   height: 250px;
   background-color: #005a73;
   color: white;
@@ -10,7 +10,7 @@
   align-items: flex-start;
   position: relative; /* Required for z-index to work */
   z-index: 10; /* Add z-index */
-  margin-left: 646px;
+  margin-left: 658px;
   margin-top: -767px;
   padding-right: 10px;
 }
