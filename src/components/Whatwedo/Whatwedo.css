@@ -1,0 +1,120 @@
+/* What We Do Section */
+.Whatwedo {
+    background-image: url(https://media.licdn.com/dms/image/v2/D4D12AQGnrPwQXYTSqA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1679572382300?e=1737590400&v=beta&t=rb9WusVdlH2KAzflARdut7V5ULkkyilKTH-3gq4Ours); /* Replace with the correct path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    color: rgb(3, 5, 8);
+    padding: 90px;
+    height: 50vh; /* Set to full viewport height to cover the screen when zoomed in or out */
+    width: 89.3%; /* Full width to ensure no empty space on the sides */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* Title Section */
+  .Whatwedo h1 {
+    margin: 0;
+    font-size: 7em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+  
+  /* "WHAT" Styling */
+  .WHAT {
+    color: white; /* White color for "WHAT" */
+    margin-bottom: -10px;
+    font-weight: bold;
+  }
+  
+  /* "WE DO" Styling */
+  .WE-DO {
+    color: rgb(68, 90, 129); /* Blue color for "WE DO" */
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+  
+  /* Rectangle Box */
+  .rect-box {
+    width: 135px;
+    height: 30px;
+    align-items: flex-start;
+    position: relative;
+    background-attachment: fixed;
+    background-color: rgb(35, 85, 114);
+    position: absolute;
+    top: 160px;
+    left: 157px;
+    border-radius: 1px;
+    
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* For Tablets */
+  @media (max-width: 768px) {
+    .rectangle-box {
+      width: 100%;
+      height: 60px;
+      left: 20px;
+    }
+  
+    .Whatwedo {
+      height: 100vh; /* Adjust to full viewport height */
+      padding: 30px;
+    }
+  
+    .Whatwedo h1 {
+      font-size: 4em;
+      margin-top: -50px;
+    }
+  
+    .WHAT {
+      font-size: 5.5em;
+    }
+  
+    .WE-DO {
+      font-size: 3.5em;
+    }
+  
+    .button-container {
+      margin-top: 50px;
+    }
+  }
+  
+  /* For Mobile Devices */
+  @media (max-width: 480px) {
+    .rectangle-box {
+      width: 100%;
+      height: 50px;
+      left: 10px;
+    }
+  
+    .Whatwedo {
+      height: 100vh; /* Adjust to full viewport height */
+      padding: 20px;
+    }
+  
+    .Whatwedo h1 {
+      font-size: 2.5em;
+      margin-top: -30px;
+    }
+  
+    .WHAT {
+      font-size: 5em;
+    }
+  
+    .WE-DO {
+      font-size: 5em;
+    }
+  
+    .button-container {
+      margin-top: 40px;
+    }
+  }

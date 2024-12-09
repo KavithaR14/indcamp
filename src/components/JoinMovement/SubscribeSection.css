@@ -1,0 +1,103 @@
+.subscribe-section {
+  background-color: #0e5b6f; /* Background color */
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  margin-top: -51px;
+  height: 390px;
+}
+
+.subscribe-section h1 {
+  font-size: 6em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subscribe-section p {
+  font-size: 2.5em;
+  margin: 10px 0 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+ 
+}
+
+.subscribe-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  width: 500px;
+  height: 50px;
+  background-color: #091405; /* Dark background for input */
+  color: rgb(228, 228, 228); /* White text inside input */
+  margin-bottom: -200px;
+  height:65px;
+  width:800px;
+  margin-bottom: -280px;
+  
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #091405;
+  background-color: rgb(252, 246, 246);
+  border: 2px solid #091405;
+  cursor: pointer;
+  height: 85px;
+  width: 200px;
+  margin-bottom: -280px;
+  
+}
+
+.subscribe-form button:hover {
+  background-color: #e9fa01e8;
+  color: rgb(247, 247, 247);
+}
+@media (max-width: 768px) {
+  .subscribe-section h1 {
+    font-size: 40px; /* Adjust heading size for tablets */
+  }
+
+  .subscribe-section p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+
+  .subscribe-form {
+    flex-direction: column; /* Stack input and button vertically */
+    gap: 15px; /* Add spacing between stacked elements */
+  }
+
+  .subscribe-form input {
+    width: 100%; /* Full width input on smaller screens */
+    height: 35px; /* Adjust input height */
+  }
+
+  .subscribe-form button {
+    width: 100%; /* Full width button on smaller screens */
+    height: 35px; /* Adjust button height */
+  }
+}
+
+@media (max-width: 480px) {
+  .subscribe-section h1 {
+    font-size: 30px; /* Smaller heading size for mobile */
+  }
+
+  .subscribe-section p {
+    font-size: 0.9rem; /* Smaller paragraph size */
+  }
+
+  .subscribe-form input {
+    font-size: 0.9rem; /* Smaller input font size */
+  }
+
+  .subscribe-form button {
+    font-size: 0.9rem; /* Smaller button font size */
+  }
+}

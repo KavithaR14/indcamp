@@ -1,0 +1,93 @@
+.text-container {
+  width: 889px; /* Ensure it doesn’t stretch too wide */
+  height: 360.5px;
+  background-color: rgba(0, 90, 115, 0.8); /* Semi-transparent overlay */
+  color: white;
+  padding: 80px; /* Reduced padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute; /* Absolute positioning to keep it on top */
+  margin-top: -28.1%; /* Adjusted for better centering */
+  right: -60%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center content */
+  z-index: 2;
+}
+
+.flagship-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../assets/image06.jpg'); /* Fixed background image */
+  background-size: cover;
+  background-attachment: fixed; /* Keeps the background fixed */
+  background-repeat: no-repeat;
+  width: 55%; /* Adjusted for responsiveness */
+  margin-left: 750px; /* Reduced margin */
+  height: 75vh; /* Adjusted height for better spacing */
+  gap: 0px;
+  margin-top: -200px; /* Adjusted top margin */
+}
+
+
+/* Rest of your existing CSS remains unchanged */
+
+.title {
+  font-size: 5.5em;
+  font-weight: bold;
+  line-height: 1.0;
+  margin-bottom: 30px;
+}
+
+.description-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main-description {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-right: 20px;
+}
+
+.read-now {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+}
+
+.read-now:hover {
+  background-color: white;
+  color: #0c0d0e;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .text-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 2.5em;
+  }
+
+  .main-description {
+    font-size: 16px;
+  }
+
+  .description-container {
+    flex-direction: column;
+  }
+
+  .read-now {
+    margin-top: 10px;
+  }
+}
+

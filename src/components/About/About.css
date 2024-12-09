@@ -1,0 +1,130 @@
+/* .about-section {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+} */
+
+/* Image Container */
+.images-container {
+  margin-bottom: 2rem;
+  width: 1855px;
+  /* height: 10px; */
+}
+
+/* Image container styling */
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 750px;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Rectangle box styling */
+.highlight-box {
+  position: absolute;
+  top: 45%;
+  left: 23%;
+  width: 150px;
+  height: 38px;
+  background-color: rgb(226, 206, 29);
+  opacity: 0.8;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+
+/* Overlay text on image */
+/* Overlay text on image */
+.overlay-text {
+  position: absolute;
+  top: 70%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  text-align: left;
+}
+
+/* Heading styling with added margin */
+.heading-main {
+  font-size: 4.9rem;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.0;
+   
+}
+
+/* Overlay paragraph with optional spacing */
+.overlay-paragraph {
+  font-size: 1.2rem;
+  /* line-height: 1.8; */
+  margin-top: 3rem; 
+  /* margin-left: 29%;  */
+}
+
+
+/* Paragraph Description Styling */
+.description-one,
+.description-two {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  margin-bottom: 1.9rem;
+  text-align: center;
+  color: #333;
+  margin-left: 140px;
+}
+
+.description-one {
+  margin-top: 10rem;
+}
+
+/* Mission & Vision Section */
+.mv-section {
+  display: flex;
+  align-items: flex-start;
+  margin: 3rem auto;
+  max-width: 1000px;
+  gap: 3rem;
+  padding: 1rem;
+}
+
+/* Left: Heading */
+.mv-heading {
+  flex: 1;
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #030303;
+}
+
+/* Right: Paragraphs */
+.sub-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #030303;
+  margin-bottom: 1.5rem; 
+  margin-top: 20%;/* Add space below the subheading */
+  
+}
+
+/* Right: Paragraphs */
+.mission-vision-paragraphs {
+  flex: 2;
+  font-size: 1.0rem;
+  line-height: 2.1;
+  color: #3b3a3a;
+  text-align: justify;
+  margin-left: 160px;
+  margin-top: -45px;
+  
+}
+
+.mission-vision-paragraphs p {
+  margin-top: -1.1rem; /* Space between each paragraph */
+  margin-bottom: 1rem; /* Space after each paragraph */
+
+}

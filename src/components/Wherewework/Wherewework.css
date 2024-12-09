@@ -1,0 +1,159 @@
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns, adjustable */
+    gap: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+  
+  /* Grid Items */
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    aspect-ratio: 1; /* Keeps items square */
+  }
+  
+  /* Images */
+  .grid-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+  }
+  
+  /* Special Overlay */
+  .special-overlay {
+    position: relative;
+    overflow: hidden; /* Prevents overlay from going outside the image */
+  }
+  
+  /* Zoom-in Effect on Hover */
+  .special-overlay:hover .grid-image,
+  .special-overlay:active .grid-image {
+    transform: scale(1.2); /* Zoom-in the image */
+  }
+  
+  /* Overlay Effect */
+  .special-overlay .overlay {
+    position: absolute;
+    top: 0;
+    left: 100%; /* Initially off-screen to the right */
+    width: 100%;
+    height: 100%;
+    background-color: #055475; /* Solid blue overlay */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.4s ease-in-out, left 0.4s ease-in-out; /* Smooth slide effect */
+    transform: translateX(0);
+  }
+  
+  /* Hover Effect: Slide from Right to Left */
+  .special-overlay:hover .overlay {
+    left: 0; /* Brings the overlay into view */
+  }
+  
+  /* Active Effect: Slide from Left to Right */
+  .special-overlay:active .overlay {
+    left: -100%; /* Moves overlay off-screen to the left */
+  }
+  
+  /* Modal Styling */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    font-size: 56px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Modal Left Section */
+  .modal-left {
+    flex: 1;
+  }
+  
+  /* Modal Right Section */
+  .modal-right {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Modal Image */
+  .modal-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  /* Close Button */
+  .close-button {
+    position: absolute;
+    top: 10px; /* Keep the button near the top */
+    right: 10px; /* Align it to the right side of the modal */
+    background: none;
+    border: none;
+    font-size: 40px; /* Adjust size as needed */
+    font-weight: 400;
+    color: #1b1b1b;
+    cursor: pointer;
+    z-index: 1100; 
+  }
+  
+  .close-button:hover {
+    color: #b87c7c;
+  }
+  
+  /* Navigation Buttons */
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 60px;
+    background: none;
+    font-size: bold;
+    border: none;
+    color: rgb(211, 193, 193);
+    cursor: pointer;
+    padding: 30px;
+  }
+  
+  .nav-button.left {
+    left: 10px;
+  }
+  
+  .nav-button.right {
+    right: 10px;
+  }
+  
+  .nav-button:hover {
+    color: #ddd;
+  }

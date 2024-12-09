@@ -1,0 +1,90 @@
+.new-navbar {
+    background-color: #F6F9F5; /* Navbar background color */
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    padding: 0rem; /* Adjusted padding for spacing */
+    
+    /* Make Navbar Fixed */
+    position: fixed; 
+    top: 0; /* Stick to the top of the viewport */
+    left: 0; 
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensures navbar stays on top of other elements */
+    
+}
+
+
+.new-navbar-brand {
+    color: #080808; /* Brand text color */
+    font-size: 2rem; /* Font size of brand */
+    margin-right: auto; /* Pushes the brand to the left */
+}
+
+.new-navbar-links {
+    display: flex;
+    gap: 0rem; /* Space between buttons */
+    flex-grow: 1; /* Allow the container to grow */
+    justify-content: flex-end; /* Align buttons to the right */
+}
+
+.new-btn, .takeaction, .menu {
+    background-color: #035772; /* Default button background color */
+    color: white; /* Text color */
+    border: none;
+    height: 100px; /* Height of the buttons */
+    padding: 0.75rem 1.5rem; /* Padding for button size */
+    border-radius: 0px; /* Square corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem; /* Text size */
+    flex: 1; /* Make buttons grow evenly and fill available space */
+    width: 190px; /* Maximum width to control the button size */
+    text-align: center; /* Center text */
+}
+
+.takeaction {
+    background-color: #E8CF1A; /* Specific color for the Take Action button */
+}
+
+.menu {
+    background-color: #0A4931;
+    color: white /* Specific color for the Menu button */
+}
+
+.new-btn:hover, .takeaction:hover {
+    background-color: #011014; /* Change hover color for all buttons */
+    color: #e1eaec; /* Change hover text color */
+}
+.menu:hover {
+    background-color: #e1eaec;
+    color:#0A4931
+}
+.navbar-logo {
+    width:200px; /* Adjust size as needed */
+    height: 200;
+    margin-right: 10px; /* Space between logo and brand name */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .new-navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center;
+    }
+
+    .new-navbar-links {
+        justify-content: center;
+        width: 100%; /* Ensure links take full width */
+    }
+
+    .new-btn, .takeaction, .menu {
+        width: 100%; /* Make buttons full width */
+        max-width: none; /* Remove max-width limitation */
+        margin-bottom: 10px; /* Add spacing between buttons */
+    }
+
+    .navbar-logo {
+        width: 80px; /* Even smaller for very small screens */
+    }
+}

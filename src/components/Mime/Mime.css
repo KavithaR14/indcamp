@@ -1,0 +1,47 @@
+.mime-container {
+  display: flex;
+  flex-direction: column;  /* Arrange images vertically */
+  width: 98%;             /* Full width of the viewport */
+  margin: 0;               /* Remove any margin */
+  height: 90vh; 
+  margin-top: 49px;         /* Adjusted height to fill viewport */
+}
+
+.image-section {
+  margin: 0;               /* No space between images */
+}
+
+/* Specific styles for each image */
+.image1, .image2, .image3 {
+  width: 40%;             /* Full container width */
+  object-fit: cover;
+  height: 50%;       /* Ensure images cover the area without distortion */
+}
+
+/* Custom heights for different images */
+.image1 {
+  height: 30vh;
+}
+
+.image2 {
+  height: 60vh;
+  gap: 0px;
+}
+
+.image3 {
+  height: 35vh;
+  
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .image1, .image2, .image3 {
+    height: 25vh;          /* Adjust height for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .image1, .image2, .image3 {
+    height: 30vh;          /* Adjust height for mobile screens */
+  }
+}

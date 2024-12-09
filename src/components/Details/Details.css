@@ -1,0 +1,183 @@
+ /* body {
+  font-family: Arial, sans-serif;
+  margin: 70px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200vh;
+  background-color: #f9f9f9;
+}  */
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  height: 570px;
+  width: 1190px;
+  background-color: #f5f9f7;
+  border: 1px solid #020202;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 200px; /* Optional to add some spacing around the container */
+  margin-top: -50px;
+  margin-left:200px ;
+}
+
+.form-left {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.form-left h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.make-an {
+  display: block;
+  font-size: 1.3em;
+}
+.impact {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.3em;
+  color: #030303;
+}
+
+.form-left form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-left label {
+  margin-top: 15px;
+  font-size: 0.9em;
+  /* color: #555; */
+}
+
+.form-left input {
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 8px 0;
+  font-size: 1em;
+  margin-top: 10px;
+  outline: none;
+}
+
+.form-right {
+  flex: 0.8;
+  font-size: 0.9em;
+}
+
+.form-right p {
+  margin-top: 10px;
+  /* color: #666; */
+}
+
+.help-options {
+  bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  margin: 75px;
+}
+
+.help-options h3 {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 60px;
+}
+
+.help-options label {
+  display: flex;
+  align-items: right;
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.help-options input[type='radio'] {
+  margin-right: 10px;
+  line-height: 5px;
+}
+
+/* When a radio button is checked, add a black dot */
+.help-options input[type='radio']:checked {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.additional-content {
+  width: 200%;
+  margin-top: 150px;
+  text-align: left;
+  margin-left: -690px;
+  flex: 40;
+}
+
+.additional-content p {
+  font-size: 1em;
+  color: #070606;
+  margin-bottom: 0px;
+  margin-left: -160px;
+}
+
+.divider-line {
+  border: none;
+  border-top: 1px solid #141313;
+  margin: 10px 0 20px;
+  width: 140%;
+  margin-left: -60px;
+}
+
+.submit-button {
+  font-size: 1.2em;
+  color: #333;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  padding: 10px 20px;
+  text-align: right;
+  transition: color 0.3s ease, margin-left 0.3s ease; /* Smooth transition */
+  display: block; /* Make the button a block element */
+  margin-left: 860px; /* Align it to the right */
+  margin-right: 0; /* Ensure there's no extra margin on the right */
+}
+
+/* Change color to blue on hover (for mouse users) */
+.submit-button:hover,
+.submit-button:active,
+.submit-button:focus {
+  color: blue;
+  outline: none; /* Remove the default focus outline */
+}
+
+/* Optional: Slight rightward shift for visual feedback */
+/* .submit-button:active,
+.submit-button:focus {
+  margin-left: -900px; /* Move the button slightly to the right */
+
+
+
+/* Optional: Slight rightward shift for visual feedback */
+/* .submit-button:active,
+.submit-button:focus {
+  margin-left: 500px; /* Move the button slightly to the right */
+
+
+/* Style for the "Tell us which project you're interested in" input field */
+.invisible-input {
+  border: none; /* Remove all borders */
+  /*Double line (thicker border)*/
+  padding: 8px 0;
+  font-size: 1em;
+  color: #333;
+  outline: none; /* Remove focus outline */
+  width: 100%;
+}
+
+
+
+

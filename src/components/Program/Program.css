@@ -1,0 +1,125 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Use 'Arial' or replace with 'Poppins' or similar for cleaner text */
+    background-color: #f9f9f9; /* Light background */
+    color: #333;
+  }
+  
+  .Program {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 90px 20px;
+  }
+  
+  /* Title Container */
+  .title-container {
+    display: flex;
+    justify-content: space-between; /* Space out the content */
+    align-items: flex-start; /* Align items to the top */
+    margin-bottom: 40px;
+  }
+  
+  .main-heading {
+    font-size: 2.8em; /* Large and bold font size */
+    font-weight: 800; /* Slightly bold font */
+    line-height: 1.2;
+    color: #1a1717; /* Deep blue color */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .programs {
+    color: #080808;
+    font-size:4rem ; /* Matches the image's heading */
+  }
+  
+  .projects {
+    color: #080808;
+    font-size:4rem ;
+  }
+  
+  /* Title Paragraph - Opposite side of the programs and projects */
+  .title-paragraph {
+    font-size: 1.2em; /* Adjusted for better readability */
+    color: #555; /* Neutral gray color */
+    max-width: 600px; /* Restrict width for cleaner layout */
+    margin: 20px 0;
+    line-height: 1.8; /* Proper spacing between lines */
+    text-align: left;
+  }
+  
+  /* Programs and Projects Section */
+  .programs, .projects {
+    max-width: 400px; /* Restrict width of programs and projects */
+  }
+  
+  .programs {
+    color: #080808; /* Deep blue color */
+  }
+  
+  .projects {
+    color: #080808;
+  }
+  
+  /* Projects List Styling */
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns for the grid */
+    gap: 150px; /* Gap between the items */
+    justify-content: center; /* Center the grid items horizontally */
+    text-align: left;
+    color: #0e253a;
+    font-size: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+  }
+  
+  .project-item {
+    font-size: 2.1em; /* Slightly larger font */
+    font-weight: 1500; /* Semi-bold text weight */
+    font-weight: bold;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#055475;
+    line-height: 1.2; /* Spacing for multi-line items */
+    font-size: bold;
+    transition: color 0.2s ease; /* Smooth hover effect */
+  }
+  
+  /* Adjust Title Styles */
+  .title-container:last-child {
+    margin-top: 60px;
+  
+  }
+  .main-heading {
+  font-size:4rem ;
+  color: #080808;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .projects-list {
+      grid-template-columns: repeat(2, 1fr); /* Switch to 2 columns on smaller screens */
+      gap: 30px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .main-heading {
+      font-size: 2em; /* Reduce heading size for smaller devices */
+    }
+  
+    .title-paragraph {
+      font-size: 1em; /* Smaller font for better fit */
+    }
+  
+    .projects-list {
+      grid-template-columns: 1fr; /* Single-column layout for mobile */
+      gap: 20px;
+    }
+  
+    .project-item {
+      font-size: 0.95em; /* Smaller font size for mobile */
+    }
+  }

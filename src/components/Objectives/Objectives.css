@@ -1,0 +1,141 @@
+.objectives-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Objectives Section */
+.objectives-title {
+    font-size: 46px;
+    font-weight: bold;
+    color: #020202;
+    margin-bottom: -10px;
+    margin-top: -30px;
+    margin-left: -100px;
+}
+
+.objectives-list {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-left: 50px;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    margin-top: -40px;
+}
+
+.objective-item {
+    max-width: 250px;
+    text-align: left;
+    margin: 10px 0; /* Adds vertical spacing for smaller screens */
+}
+
+.objective-number {
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.objective-text {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Partners Section */
+.partners-section {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    margin-top: 40px;
+    padding: 20px;
+    
+}
+
+.partners-heading {
+    font-size: 69px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 750px;
+}
+
+.partners-paragraph {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 20px 0;
+    max-width: 700px;
+    margin-left: 500px;
+    margin-top: -90px;
+}
+
+/* Partners Logos Section */
+.partners-logos {
+    display: flex;
+    justify-content: center; /* Aligns logos in the center */
+    align-items: center; /* Aligns logos vertically */
+    flex-wrap: wrap; /* Wraps logos to the next line if the screen is small */
+    gap: 40px; /* Space between logos */
+    margin-top: 60px;
+   
+}
+
+.partners-image {
+    width: 200px; /* Sets a consistent size for each logo */
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease; /* Adds hover effect */
+    margin-right: 50px;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .partners-logos {
+        gap: 10px; /* Reduces spacing for smaller screens */
+    }
+
+    .partners-image {
+        max-width: 100px; /* Smaller size for small screens */
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .objectives-title {
+        font-size: 28px;
+        margin-left: 0;
+    }
+
+    .objectives-list {
+        gap: 50px; /* Adjusts spacing for smaller screens */
+    }
+
+    .objective-number {
+        font-size: 36px;
+    }
+
+    .partners-section {
+        padding: 10px;
+    }
+
+    .partners-heading {
+        font-size: 36px;
+    }
+
+    .partners-paragraph {
+        text-align: center; /* Adjusts alignment for smaller screens */
+        margin: 10px 0;
+    }
+
+    .partners-logos {
+        gap: 10px; /* Reduces gap between logos for small screens */
+    }
+
+    .partners-image {
+        max-width: 100px; /* Scales logos down for small screens */
+    }
+}
+
+

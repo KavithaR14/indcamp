@@ -1,0 +1,74 @@
+.stats-item {
+    text-align: center;
+    display: inline-block;
+    margin: 50px 20px; /* Slightly reduce margin for smaller screens */
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.stats-item h1 {
+    font-size: 9rem;
+    color: #035772;
+    margin-top: 0;
+    margin-bottom: 0.5px;
+}
+
+.stats-item p {
+    font-size: 3rem;
+    color: #000000;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.stats-item:nth-child(2) h1 {
+    margin-top: 5px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 0;
+    gap: 100px;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .stats-container {
+        gap: 40px; /* Reduce gap for smaller screens */
+        padding: 20px 10px; /* Reduce padding */
+    }
+
+    .stats-item {
+        margin: 30px 10px; /* Less margin on smaller screens */
+    }
+
+    .stats-item h1 {
+        font-size: 5rem; /* Smaller number size for smaller screens */
+    }
+
+    .stats-item p {
+        font-size: 1rem; /* Adjust description size */
+    }
+}
+
+@media (max-width: 480px) {
+    .stats-item {
+        margin: 20px 5px; /* Further reduce margin for very small screens */
+    }
+
+    .stats-item h1 {
+        font-size: 4rem; /* Even smaller for very small screens */
+    }
+
+    .stats-item p {
+        font-size: 0.9rem;
+    }
+
+    .stats-container {
+        gap: 20px; /* Minimal gap for very small screens */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+}

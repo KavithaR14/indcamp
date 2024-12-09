@@ -1,0 +1,7 @@
+.image-container {
+    background: url('image04.jpg') no-repeat center center;  /* Replace with your image path */
+    background-size: cover;
+    height: 100vh;  /* Full viewport height */
+    width: 100%;    /* Full width */
+  }
+  

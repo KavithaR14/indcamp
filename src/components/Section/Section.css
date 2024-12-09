@@ -1,0 +1,146 @@
+
+.section {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqxoFmhuZTNp4vOmrnk8DC9s_PoiK5cDIe6mKVtGloh-FJmRMidxE1EHr2B2ZTathlEWc&usqp=CAU');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #201e1e;
+  padding: 50px;
+  height: 80vh;
+  width: 95.%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.rectangles-box {
+  width: 170px;
+  height: 38px;
+  background-color: #035772;
+  position: absolute;
+  top: 150px;
+  left: 155px;
+  border-radius: 0;
+}
+
+.section h1 {
+  margin: 90px;
+  font-size: 7em;
+  display: flex;
+  flex-direction: column;
+  margin-top: -30px;
+}
+
+.get-involved {
+  color: rgb(252, 252, 252);
+  margin-bottom: 455px;
+  margin-top: 50px;
+}
+
+.today {
+  color: #035772;
+  margin-top: -495px;
+}
+
+.Section-paragraph {
+  font-size: 1em;
+  position: absolute;
+  bottom: 125px;
+  left: 160px;
+  text-align: left;
+  max-width: 400px;
+  line-height: 1.8;
+}
+
+.button-container {
+  margin-top: 80px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .section h1 {
+    font-size: 5em; /* Smaller font size for medium screens */
+  }
+
+  .Section-paragraph {
+    bottom: 150px; /* Adjust position */
+  }
+}
+
+@media (max-width: 992px) {
+  .section {
+    padding: 30px;
+    height: 70vh; /* Adjust height */
+  }
+
+  .rectangle-box {
+    top: 100px;
+    left: 30px;
+  }
+
+  .section h1 {
+    font-size: 4em;
+    margin: 40px 0; /* Adjust margins */
+  }
+
+  .Section-paragraph {
+    bottom: 100px;
+    left: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 20px;
+    height: auto; /* Adjust to content height */
+    background-attachment: scroll; /* Remove fixed background on small screens */
+  }
+
+  .rectangle-box {
+    top: 80px;
+    left: 20px;
+    width: 150px;
+  }
+
+  .section h1 {
+    font-size: 3em;
+    margin: 20px 0;
+  }
+
+  .get-involved,
+  .today {
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  .Section-paragraph {
+    position: static;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .section h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .rectangle-box {
+    top: 60px;
+    left: 10px;
+    width: 120px;
+  }
+
+  .section {
+    align-items: center; /* Center align for smaller screens */
+    text-align: center;
+  }
+
+  .Section-paragraph {
+    text-align: center;
+    margin: 20px 10px;
+  }
+}

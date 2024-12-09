@@ -1,0 +1,78 @@
+.help-know-container {
+  display: flex;
+  width: 50%;
+  margin: 50px auto;
+  gap: 0px;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: -604px;
+  height: 604px;
+  margin-left: 240px;
+}
+
+/* Shared section styles */
+.help-section,
+.know-us-section {
+  flex: 1;
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  border-radius: 0px;
+  position: relative;
+  z-index: 2;
+}
+
+/* How You Can Help Section */
+.help-section {
+  background-color: #E8CF1A; /* Yellow */
+}
+
+.know-us-section {
+  background-color: #091405; /* Dark Green */
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.action-btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid currentColor;
+  color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.action-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .help-know-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}

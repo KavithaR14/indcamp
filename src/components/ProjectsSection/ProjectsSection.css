@@ -1,0 +1,106 @@
+/* Main Projects Section Styling */
+.projects-section {
+  font-size: 2em;
+  padding: 90px 200px;
+  background-color: #fff;
+}
+
+/* Title and Paragraph Container */
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.upcoming {
+  color: #1a1919;
+  font-size:50px ;
+}
+
+.projects {
+  color: #1a1919;
+  font-size:50px ;
+}
+
+/* Updated Paragraph Container */
+.title-paragraph1  {
+  font-size: 17px;
+  color: #111010;
+  max-width: 600px;
+  margin-left: 160px;
+  gap: 10px;
+  line-height: 1.5;
+  margin-top: 70px;
+}
+.title-paragraph2 {
+  font-size:17px;
+  color: #0a0a0a;
+  width: 600px;
+  margin-left: 160px;
+  gap: -10px;
+  line-height: 1.5;
+
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  text-align: left;
+}
+
+/* .project-item {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+.project-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #455080;
+  margin-bottom: 10px;
+}
+
+.region-container small {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.project-description {
+  font-size: 1.0rem;
+  color: #333;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+
+/* Specific Adjustments for Spacing Consistency */
+.project-item .description-heading {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+/* Ensure Consistent Sizing Across Grid Items */
+.project-item:nth-child(2),
+.project-item:nth-child(4),
+.project-item:nth-child(6) {
+  align-self: start;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .projects-list {
+      grid-template-columns: 1fr; /* Stack items on smaller screens */
+  }
+
+  .title-container {
+      padding: 20px;
+  }
+}
+
+
